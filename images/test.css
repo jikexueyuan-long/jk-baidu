@@ -1,0 +1,61 @@
+*{
+      padding: 0;
+      margin: 0;
+    }
+    ul,li{
+      list-style: none;
+    }
+.cscontainer .changeskin{
+    height: 47px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+} 
+
+.changeskin .csbody{
+  position: relative;
+  width:893px;
+  margin: 1 auto;
+}
+.csbody ul li{
+   cursor: pointer;
+    font-size: 13px;
+  display: inline-block;
+  height: 47px;
+  line-height: 47px;
+  padding: 0 5px;
+
+}
+.csshou{
+  position: absolute;
+  top:15px;
+  right: 0;
+  display: inline-block;
+  cursor: pointer;
+    font-size: 13px;
+}
+.csshou i{
+  display: inline-block;
+  background-image: url(shou.jpg);
+  width: 14px;
+  height: 14px;
+}
+.csshou span{
+  color: #0079f5;
+}
+.cscontainer .cscontent{
+  height: 240px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.cscontent .cscbody{
+  height: 270px;
+  width:893px; 
+}
+.csleft{
+  float: left;
+width: 587px;
+height: 179px;
+}
+.cscontent li{
+  text-align: -webkit-match-parent;
+}

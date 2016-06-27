@@ -1,0 +1,192 @@
+.water-tainer{
+/*width: 893px;
+text-align: left;
+border:1px solid #e9e9e9;border-top: 0;*/
+ clear: both;
+/*height: auto;*/
+    }
+.clearfix {
+    zoom: 1; 
+}
+.s-video-wrapper .video-col{
+	float: left;
+	margin:25px 0 25px 20px;
+	width: 195px;
+	height: 320px;
+	overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.video-col .item-wrapper{
+	position: relative;
+}
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.video-col .video-item {
+    width: 195px;
+    text-align: left;
+}
+.video-col .subscribe {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    top: 5px;
+    left: 149px;
+}
+.video-item .v-pic {
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.video-col .video-item .v-pic-1 {
+
+    width: 195px;
+    height: 270px;
+}
+.v-pic-1 .nointerst{
+    position: absolute;
+    left: 66px;
+    top: 102px;
+}
+.v-pic-1 .buzz{
+	-webkit-animation-name: video-buzz-out;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-name: video-buzz-out;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    height: 60px;
+    width: 60px;
+    background-image: url('../images/video/nointerest_30761aea.png?__sprite');
+    _background-image: url('../images/video/nointerest_30761aea.png?__sprite');
+    z-index: 11;
+    display: none;
+}
+.v-pic a{
+	cursor: pointer;
+	text-decoration: none;
+}
+/*.v-pic .bigImg{
+    width: 195px;
+    height: 270px;
+}*/
+.v-pic .tvStyle{
+	
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    z-index: 3;
+    display: block;
+    background-image: url('../images/video/video_corner_bce72425.png?__sprite');
+   
+}
+.v-pic .sty-0{
+     background-position: 0 0;
+}
+.v-pic .sty-1{
+     background-position: -42px 0;
+}
+.v-pic .sty-2{
+     background-position: -126px 0;
+}
+.v-pic .sty-3{
+     background-position: -184px 0;
+}
+.video-item:hover .bustbin,.video-item:hover .sub-star{
+	display: block;
+}
+.item-wrapper:hover .tvStyle{
+	display: none;
+
+}
+.item-wrapper .sub-star{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    z-index:1;
+    background: url('../images/video/vicon_312b5ba6.png?__sprite') no-repeat -6px -1px;
+    _background: url('../images/video/vicon_312b5ba6.png?__sprite') no-repeat -6px -1px;
+    _zoom: 1;
+    width: 18px;
+    height: 18px;
+    display: none;
+    _display: none;
+}
+.sub-star>span,.bustbin>span{
+    position: absolute;
+    width: 70px;
+    top: -42px;
+    right: -50%;
+    background: #fff;
+    padding: 5px;
+    line-height: 25px;
+    z-index: 999;
+}
+.sub-star:hover span,.bustbin:hover span{
+    display: block;
+}
+.item-wrapper .bustbin {
+ position: absolute;
+ right: 5px;
+ top:5px;
+ background: url('../images/video/vicon_312b5ba6.png?__sprite') no-repeat -49px -20px;
+ width: 18px;
+ height: 18px;
+ z-index:1;
+ display: none;
+}
+.video-item .v-txt{
+	margin-left: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+.v-txt .tvtitle{
+     display: block;
+    height: 14px;
+    margin-top: 6px;
+}
+.v-txt span{
+    display: inline-block;   
+    position: relative;
+    background-image: url('../images/video/star_592adb7e.png?__sprite');
+    _background-image: url('../images/video/star_592adb7e.png?__sprite');
+    background-repeat: repeat-x;
+    height: 13px;
+    width: 65px;
+    vertical-align: middle;
+    margin-bottom:0 5px 4px 0;
+
+}
+.v-txt span .star-active {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: 13px;
+    width: 13px;
+    background-image: url('../images/video/star_592adb7e.png?__sprite');
+    _background-image: url('../images/video/star_592adb7e.png?__sprite');
+    background-repeat: repeat-x;
+    background-position: 0 -13px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.video-item-2 {
+    width: 195px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.tvtitle a:hover{
+ text-decoration: underline;
+}

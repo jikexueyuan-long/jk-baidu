@@ -1,0 +1,7 @@
+body, ul, li,  p, dl, dt, dd,h2 { margin: 0px; padding: 0px; }
+ul { list-style: none; }
+img { border-style: none; }
+a{text-decoration: none;}
+ /*a:link {color: #333} 未访问的链接 */
+ /*a:visited {color: #333} /* 已访问的链接 */
+ /*a:hover {color: #00C} /* 鼠标移动到链接上 */
